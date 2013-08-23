@@ -1,0 +1,7 @@
+create database `ACCENT`
+	   FILE_ID varchar(2)
+;
+
+create database `ANS_DETAIL`
+	   FILE_ID varchar(2)
+;

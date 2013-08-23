@@ -1,0 +1,5 @@
+= filecnv
+
+Generate this with
+    filecnv rdoc
+After you have described your command line interface
