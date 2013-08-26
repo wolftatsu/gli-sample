@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require_relative './test_helper'
 require_relative '../lib/filecnv'
 
@@ -32,6 +33,10 @@ class DefaultTest < Test::Unit::TestCase
 
     src = "database ` `ans_detail` `and_detail` `"
     assert_equal "database ` `ANS_DETAIL` `AND_DETAIL` `", @o.cnv(src)
+
+    src = "データベース ` `ans_detail` `and_detail` `だよ"
+    assert_equal "データベース ` `ANS_DETAIL` `AND_DETAIL` `だよ", @o.cnv(src)
+
   end  
 end
 

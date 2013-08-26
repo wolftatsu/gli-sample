@@ -2,6 +2,10 @@ create database `accent`
 	   FILE_ID varchar(2)
 ;
 
+-- ‰ñ“šÚ×
 create database `ans_detail`
 	   FILE_ID varchar(2)
 ;
+
+insert into ans_detail values(‚Ù‚°,‚Ó‚ª
+, ‚Ó‚ª‚Ó‚ª);
